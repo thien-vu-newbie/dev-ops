@@ -11,7 +11,7 @@ pipeline {
     environment {
         REPO_URL = 'https://github.com/thien-vu-newbie/dev-ops.git'
         BRANCH_NAME = "${params.BRANCH_NAME}"
-        IMAGE_NAME = 'ntquan87/app-ci-cd'
+        IMAGE_NAME = 'ntquan87/app-ci-cd-vtt'
     }
 
 
